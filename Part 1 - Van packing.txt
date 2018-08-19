@@ -1,0 +1,70 @@
+Objectives:
+
+Problem solving skills
+Test code structure
+Testing approach
+
+Duration: 20 - 30 minutes
+
+
+The Challenge:
+Pack a list of orders into vans.
+Put all of the orders for the same customer into the same van if possible.
+Vans have a maximum weight capacity of 5.
+@param {Array{Object}} orders 
+
+
+EXTENSION:
+Report any van ids that contain orders for customers whose orders are spread across multiple vans (report in 'spreadVanIds').
+
+
+Note:
+timebox it! Please feel free to ask questions! Use version control, preferrably git. Add your approach to testing. Ensure the batch can handle files of varying sizes without having to scale vertically Think production ready batch that can scale with huge data (Gbs of data)
+
+Language:
+node.js (and use any library or frameworks that you are comfortable with)
+
+
+Schema:
+
+const exampleReturnValue = {
+    vans: [
+        {
+            orders: ['abc', 'ghi']
+        },
+        {
+            orders: ['def','zzz']
+        }, 
+        {
+            etc: 'etc...'
+        }
+    ],
+    spreadVanIds: [1,2]
+}
+
+const exampleOrders = [
+    {
+        customerId: 1,
+        orderId: 'abc',
+        weight: 2
+    },
+    {
+        customerId: 2,
+        orderId: 'ghi',
+        weight: 1
+    },
+    {
+        customerId: 1,
+        orderId: 'def',
+        weight: 4
+    },
+    {
+        customerId: 1,
+        orderId: 'zzz',
+        weight: 1
+    }
+]
+
+function packAndReport(orders) {
+    // Code here
+}

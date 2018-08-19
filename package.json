@@ -1,0 +1,16 @@
+{
+  "name": "parta",
+  "version": "1.0.0",
+  "description": "Part A of coding challenge",
+  "main": "van.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "chrisongg",
+  "license": "ISC",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^23.5.0",
+    "rosie": "^2.0.1"
+  }
+}
